@@ -1,4 +1,5 @@
 pubspec.lock
 .project
 packages/
+test/packages
 bin/
