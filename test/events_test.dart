@@ -1,6 +1,6 @@
 
 import 'package:unittest/unittest.dart';
-import 'package:events/events_lib.dart';
+import 'package:events/events.dart';
 
 void main(){
   group('Typical API usage tests', () {
