@@ -1,5 +1,8 @@
 name:  events
-description:  A sample application
+author: "Sam Elkhateeb <same@nanosn.com>"
+homepage: https://github.com/
+description:  An easy to use event bus library in Dart.
+version: 0.1.0
 
 #dependencies:
 #  unittest: { sdk: unittest }
