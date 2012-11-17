@@ -4,5 +4,6 @@ homepage: https://github.com/
 description:  An easy to use event bus library in Dart.
 version: 0.1.0
 
-#dependencies:
-#  unittest: { sdk: unittest }
+dependencies:
+  unittest:
+    sdk: unittest
