@@ -16,7 +16,6 @@ class Events {
    */
   EventHandlers noSuchMethod(InvocationMirror invocationMirror){
     var eventType = invocationMirror.memberName.replaceAll('get:', '');
-    print(eventType);
     return this._eventsManager._getEventHandlers(eventType);
   }
 }
