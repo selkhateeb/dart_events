@@ -5,5 +5,4 @@ description:  An easy to use event bus library in Dart.
 version: 0.1.0
 
 dependencies:
-  unittest:
-    sdk: unittest
+  unittest: any
