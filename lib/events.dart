@@ -85,7 +85,9 @@ class EventHandlers extends Iterable {
     return this._handlers.removeAt(this._handlers.indexOf(handler));
   }
 
-  Iterator iterator() => this._handlers.iterator();
+
+  @overrides
+  get iterator => this._handlers.iterator;
 }
 
 
